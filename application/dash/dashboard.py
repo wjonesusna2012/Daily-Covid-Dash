@@ -86,6 +86,7 @@ dataset_selector_options = [
 app = dash.Dash(__name__)
 server = app.server  # for heroku deployment
 
+# @app.route('/data')
 app.layout = html.Div(
     id="content",
     children=[
